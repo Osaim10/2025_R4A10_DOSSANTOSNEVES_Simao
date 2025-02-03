@@ -25,10 +25,10 @@ Cette page doit être implémentée de manière à ce qu'elle soit responsive, e
 - La liste de cartes suit les principes suivants: 1 colonne sur mobile, 2 colonnes entre 768px et 1200px, 3 colonnes au-dessus
 - Pas besoin de mettre de vraies images, vous pouvez simplement centrer du texte dans la partie haute de la carte
 - La largeur maximale disponible pour la liste des cartes est la suivante:
-  - mobile: tout l'écran
-  - 768px+ - 600px
-  - 1024px+ - 768px
-  - 1200px+ - 1024px
+    - mobile: tout l'écran
+    - 768px+ - 600px
+    - 1024px+ - 768px
+    - 1200px+ - 1024px
 - Sur mobile, le footer est sur une colonne et le texte est centré. Au dessus, il est sur 2 colonnes
 
 ### Quelques conseils
@@ -87,6 +87,6 @@ Ces tests sont uniquement là pour vous aider à savoir si vous avez retourné l
 - Ajoutez à ce dossier un fichier `.gitignore` dans lequel vous écrirez simplement: `tests`
 - Créez une branche nommée `tp1` et envoyez votre code finalisé dessus
 - Déployez votre front via Github Pages:
-  - Sur Github, dans l'onglet `Settings`, rendez-vous dans `Pages`, sélectionnez votre branche `tp1` et laissez le dossier `/root`
-  - Validez en appuyant sur le bouton `Save`
-  - Vérifiez que votre site est bien build et accessible
+    - Sur Github, dans l'onglet `Settings`, rendez-vous dans `Pages`, sélectionnez votre branche `tp1` et laissez le dossier `/root`
+    - Validez en appuyant sur le bouton `Save`
+    - Vérifiez que votre site est bien build et accessible
