@@ -1,0 +1,5 @@
+<h1>{{ voyage?.destination }}</h1>
+<p>{{ voyage?.description }}</p>
+<p>Prix : {{ voyage?.prix | currency:'EUR' }}</p>
+<button (click)="supprimerVoyage()">❌ Supprimer</button>
+<a routerLink="/home">Retour</a>

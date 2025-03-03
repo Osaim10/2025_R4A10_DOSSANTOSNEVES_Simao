@@ -1,0 +1,7 @@
+<h1>Liste des Voyages</h1>
+<div *ngFor="let voyage of voyages">
+  <p><strong>{{ voyage.destination }}</strong> - {{ voyage.prix | currency:'EUR' }}</p>
+  <p>{{ voyage.description | slice:0:20 }}...</p>
+  <a [routerLink]="['/voyage', voyage.id]">Voir plus</a>
+  <button (click)="supprimerVoyage(voyage.id)">❌ Supprimer</button>
+</div>

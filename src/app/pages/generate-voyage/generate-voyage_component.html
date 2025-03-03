@@ -1,0 +1,11 @@
+<h1>Générer un Voyage</h1>
+<button (click)="genererVoyage()">🎲 Générer</button>
+
+<div *ngIf="generatedVoyage">
+  <h2>{{ generatedVoyage.destination }}</h2>
+  <p>{{ generatedVoyage.description }}</p>
+  <p>Prix : {{ generatedVoyage.prix | currency:'EUR' }}</p>
+  <button (click)="validerVoyage()">✅ Valider</button>
+</div>
+
+<a routerLink="/home">Retour</a>
